@@ -1,0 +1,19 @@
+.container {
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    z-index: -1;  
+}
+
+.container.dark {
+    background-color: #141D2F;
+}
+
+.container.light {
+    background-color: #F6F8FF;
+}
+
+
+
+
+

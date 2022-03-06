@@ -1,0 +1,459 @@
+.user-profile {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: space-around;
+    align-items: center;
+    margin: 1.375em auto 0  ;
+    width: 20.4375em;
+    background: #FEFEFE;
+    border-radius: 12px;
+    height: 32.3125em;
+    padding: 20px ;
+    box-shadow: 0px 0px 19px 0px #4660BB;
+}
+.user-profile.dark {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: space-around;
+    align-items: center;
+    margin: 1.375em auto 0  ;
+    width: 20.4375em;
+    background: #1E2A47;
+    border-radius: 12px;
+    height: 32.3125em;
+    padding: 20px ;
+    box-shadow: none;
+}
+
+
+
+.user-header {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-start;
+    align-items: center;
+    width: 100%;
+}
+.user-header.dark h1 {
+color: #F6F8FF;}
+
+.user-header h1:nth-of-type(2) {
+    font-size: .8125em;
+color: #0079FF}
+.user-header h1:nth-of-type(3) {
+    font-size: .8125em;
+    font-weight: lighter;
+color: #697C9A}
+.user-header.dark h1:nth-of-type(3) {
+    font-size: .8125em;
+    font-weight: lighter;
+color: #FEFEFE}
+
+.user-header .user-info {
+ justify-self: flex-start;
+ margin: 0 0 0 .625em;
+}
+
+.user-header img {
+    width: 4.375em;
+    height: 4.375em;
+    border-radius: 50%;
+}
+.user-header .user-info h1 {
+    font-size: 1rem;
+    text-align: left;
+}
+.statistics {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    align-items: center;
+
+    width: 17.4375em;
+    height: 5.3125em;
+    border-radius: .75em;
+
+    background: #F6F8FF;
+}
+.statistics.dark {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    align-items: center;
+
+    width: 17.4375em;
+    height: 5.3125em;
+    border-radius: .75em;
+
+    background: #141D2F;
+}
+
+.statistics div {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: space-around;
+    align-items: center;
+    height:3em ;
+}
+.statistics div > h1:first-of-type {
+    font-size: 1em;
+    color: #4B6A9B;
+    text-transform: capitalize;
+    font-weight: normal;
+}
+.statistics.dark div > h1:first-of-type {
+    font-size: 1em;
+    color: #FEFEFE;
+    font-weight: normal;
+  
+}
+.statistics div > h1:last-of-type {
+    font-size: 1em
+}
+.statistics.dark div > h1:last-of-type {
+    font-size: 1em;
+    color: #FEFEFE;
+}
+
+p {
+    color: #4B6A9B;
+    font-size: .8125em
+}
+p.dark {
+    color: #FEFEFE;
+    font-size: .8125em
+}
+.links {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: space-around;
+    align-items: flex-start;
+    width: 100%;
+    height: 8.25em;
+}
+
+.links div {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+
+}
+
+.links img {
+    margin-right: .625em;
+}
+.links  h1 ,a {
+    font-size: .8125em;
+    font-weight: normal;
+}
+.links div >  h1 ,
+.links div >   a {
+    font-size: .8125em;
+    font-weight: normal;
+    cursor: pointer;
+}
+.links div >  h1:hover ,
+.links div >   a:hover {
+    text-decoration: underline;
+}
+.links.dark div >   h1,
+.links.dark div >   a
+ {
+    font-size: .8125em;
+    font-weight: normal;
+    color: #FEFEFE;}
+    @media only screen and (max-width: 900px) and (min-width: 600px)  {
+        .user-profile {
+            display: flex;
+            flex-flow: column wrap;
+            justify-content: space-around;
+            align-items: center;
+            margin: 1.375em auto 0  ;
+            width: 36em;
+            background: #FEFEFE;
+            border-radius: 12px;
+            height: 32.3125em;
+            padding: 20px ;
+            box-shadow: 0px 0px 19px 0px #4660BB;
+        }
+        .user-profile.dark {
+            display: flex;
+            flex-flow: column wrap;
+            justify-content: space-around;
+            align-items: center;
+            margin: 1.375em auto 0  ;
+            width: 36em;
+            background: #1E2A47;
+            border-radius: 12px;
+            height: 32.3125em;
+            padding: 20px ;
+            box-shadow: none;
+        }
+        
+        
+        
+        .user-header {
+            display: flex;
+            flex-flow: row wrap;
+            justify-content: flex-start;
+            align-items: center;
+            width: 100%;
+        }
+        .user-header.dark h1 {
+        color: #F6F8FF;}
+        .user-header h1:nth-of-type(2) {
+        color: #0079FF}
+        
+        .user-header .user-info {
+         justify-self: flex-start;
+         margin: 0 0 0 .625rem;
+        }
+        
+        .user-header img {
+            border-radius: 50%;
+        }
+        .user-header .user-info h1 {
+            font-size: 1rem;
+            text-align: left;
+        }
+        .statistics {
+            display: flex;
+            flex-flow: row wrap;
+            justify-content: space-around;
+            align-items: center;
+            width: 30.8125em;
+            height: 5.3125em;
+            border-radius: .75em;
+        
+            background: #F6F8FF;
+        }
+        .statistics.dark {
+            display: flex;
+            flex-flow: row wrap;
+            justify-content: space-around;
+            align-items: center;
+            width: 30.8125em;
+            height: 5.3125em;
+            border-radius: .75em;
+        
+            background: #141D2F;
+        }
+        
+        .statistics div {
+            display: flex;
+            flex-flow: column wrap;
+            justify-content: space-around;
+            align-items: center;
+            height:3em ;
+        }
+        .statistics div > h1:first-of-type {
+            font-size: 1em;
+            color: #4B6A9B;
+            text-transform: capitalize;
+            font-weight: normal;
+        }
+        .statistics.dark div > h1:first-of-type {
+            font-size: 1em;
+            color: #FEFEFE;
+            font-weight: normal;
+          
+        }
+        .statistics div > h1:last-of-type {
+            font-size: 1em
+        }
+        .statistics.dark div > h1:last-of-type {
+            font-size: 1em;
+            color: #FEFEFE;
+        }
+        
+        p {
+            color: #4B6A9B;
+            font-size: .8125em
+        }
+        p.dark {
+            color: #FEFEFE;
+            font-size: .8125em
+        }
+        .links {
+            display: flex;
+            flex-flow: row wrap;
+            justify-content: space-around;
+            align-items: flex-start;
+            width: 100%;
+            height: 6em;
+        }
+        
+        .links div {
+            display: flex;
+            flex-flow: row wrap;
+            justify-content: flex-start;
+            width: 50%;
+        
+        }
+        
+    
+    }
+
+    @media only screen and (min-width: 1200px)   {
+        .user-profile {
+            display: flex;
+            flex-flow: column wrap;
+            justify-content: space-around;
+            align-items: center;
+            margin: 1.375em auto 0  ;
+            width: 45.625em;
+            background: #FEFEFE;
+            border-radius: 12px;
+            height: 32.3125em;
+            padding: 20px ;
+            box-shadow: 0px 0px 19px 0px #4660BB;
+        }
+        .user-profile.dark {
+            display: flex;
+            flex-flow: column wrap;
+            justify-content: space-around;
+            align-items: center;
+            margin: 1.375em auto 0  ;
+            width: 45.625em;
+            background: #1E2A47;
+            border-radius: 12px;
+            height: 32.3125em;
+            padding: 20px ;
+            box-shadow: none;
+        }
+        
+        
+        
+        .user-header {
+            display: flex;
+            flex-flow: row wrap;
+            justify-content: flex-start;
+            align-items: center;
+             width: 30em;
+             position: relative;
+        }
+        .user-header img {
+            border-radius: 50%;
+            position: absolute;
+            top: 0;
+            left: -5.625rem;
+        }        
+        .user-header h1:nth-of-type(2) {
+        color: #0079FF}
+        
+        .user-header .user-info {
+            display: flex;
+            flex-flow: row wrap;
+            justify-content: space-around;
+         justify-self: flex-start;
+            width: 30em;
+         margin: 0 0 0 .625rem;
+        }
+        
+        
+        .user-header .user-info h1:first-of-type{
+            font-size: 1.625em;
+            text-align: left;
+            width: 50%;
+        }
+
+        .user-header .user-info h1:nth-of-type(2){
+            font-size: 1.625em;
+            text-align: left;
+            width: 100%;
+            order: 3;
+            margin-top: 1.25em;
+        }
+    
+        .user-header .user-info h1:nth-of-type(3){
+            font-size: .9375em;
+            text-align: right;
+            width: 50%;
+            justify-self: flex-end;
+        }
+        .statistics {
+            display: flex;
+            flex-flow: row wrap;
+            justify-content: space-around;
+            align-items: center;
+            width: 30em;;
+            height: 5.3125em;
+            border-radius: .75em;
+        
+            background: #F6F8FF;
+        }
+        .statistics.dark {
+            display: flex;
+            flex-flow: row wrap;
+            justify-content: space-around;
+            align-items: center;
+            width: 30em;;
+            height: 5.3125em;
+            border-radius: .75em;
+        
+            background: #141D2F;
+        }
+        
+        .statistics div {
+            display: flex;
+            flex-flow: column wrap;
+            justify-content: space-around;
+            align-items: center;
+            height:3em ;
+        }
+        .statistics div > h1:first-of-type {
+            font-size: 1em;
+            color: #4B6A9B;
+            text-transform: capitalize;
+            font-weight: normal;
+           
+        }
+        .statistics.dark div > h1:first-of-type {
+            font-size: 1em;
+            color: #FEFEFE;
+            font-weight: normal;
+          
+        }
+        .statistics div > h1:last-of-type {
+            font-size: 1em
+        }
+        .statistics.dark div > h1:last-of-type {
+            font-size: 1em;
+            color: #FEFEFE;
+        }
+        
+        p {
+            color: #4B6A9B;
+            font-size: .8125em
+            ;   width: 30em;
+            text-align: left;
+        }
+        p.dark {
+            color: #FEFEFE;
+            font-size: .8125em;
+            width: 30em;
+            text-align: left;
+            justify-self: flex-start;
+        }
+        .links {
+            display: flex;
+            flex-flow: row wrap;
+            justify-content: space-around;
+            align-items: flex-start;
+            width: 30em;;
+            height: 6em;
+        }
+        
+        .links div {
+            display: flex;
+            flex-flow: row wrap;
+            justify-content: flex-start;
+            width: 50%;
+        
+        }
+        
+    
+    }
+
+
+    
